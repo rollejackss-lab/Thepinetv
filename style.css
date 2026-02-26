@@ -1,0 +1,37 @@
+body {
+  background: #141414;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.logo {
+  padding: 20px;
+  font-size: 28px;
+  color: #e50914;
+}
+
+.row {
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 300px;
+  text-decoration: none;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
